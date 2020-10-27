@@ -7,9 +7,9 @@ pipeline {
 
   }
   stages {
-    stage('') {
+    stage('Build') {
       steps {
-        buildName 'Test'
+        sh 'install npm'
       }
     }
 
